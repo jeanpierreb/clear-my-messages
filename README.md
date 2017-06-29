@@ -4,7 +4,7 @@
 
 If you are comfortable using the command line you can simply copy and paste the commands listed below and it will achieve the same results. In fact, if you downnload the app, that is all that it's doing, except in a prettier way.
 
-[Click here to Download the app](1)
+[Click here to Download the app][1]
 
 Or
 
@@ -20,7 +20,7 @@ Restart OSX
 
 ## Specifications
 
-This is an [Electron](2) app, and uses [Materialize](3) for styling.
+This is an [Electron][2] app, and uses [Materialize][3] for styling.
 
 [1]: http://google.com
 [2]: https://electron.atom.io/
