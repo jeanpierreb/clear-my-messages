@@ -1,11 +1,26 @@
-# Messages Wipe
+# Messages Cleaner
 
-Run the following commands to delete your history 
+## Command line version
+
+If you are comfortable using the command line you can simply copy and paste the commands listed below and it will achieve the same results. In fact, if you downnload the app, that is all that it's doing, except in a prettier way.
+
+[Click here to Download the app](1)
+
+Or
+
+### Copy and paste the following into terminal 
+
+Delete the files inside of Messages
 
 `rm -Rf ~/Library/Messages/*; rm -Rf ~/Library/Containers/com.apple.ichat/Data/Library/Messages/Archive/*`
 
-Restart your computer
+Restart OSX
 
 `osascript -e 'tell app "loginwindow" to «event aevtrrst»'`
 
-## Technical notes
+## Specifications
+
+This is an [Electron](2) app, and uses Materialize for styling.
+
+[1]: http://google.com
+[2]: https://electron.atom.io/
