@@ -20,7 +20,8 @@ Restart OSX
 
 ## Specifications
 
-This is an [Electron](2) app, and uses Materialize for styling.
+This is an [Electron](2) app, and uses [Materialize](3) for styling.
 
 [1]: http://google.com
 [2]: https://electron.atom.io/
+[3]: http://materializecss.com/
