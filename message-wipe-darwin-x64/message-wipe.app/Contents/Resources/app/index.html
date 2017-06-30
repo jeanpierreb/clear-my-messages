@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Messages Wipe</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="css/materialize.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+  <body>
+		<div class="main">
+			<h2>Wipe Messages</h2>
+  		<p>This will <strong>PERMANENTLY</strong> delete your Messages history on this Mac.</p>
+  		<a class="waves-effect waves-light btn" href="#modal">Modal</a>
+		</div>
+		<footer>
+			<a href="#" id="close-window">Exit this App</a>
+		</footer>
+
+		  <!-- Modal Trigger -->
+
+  <!-- Modal Structure -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+    <h4>Confirm Deletion</h4>
+      <p>Please keep in mind that this cannot be reversed. Also while it will delete the contents of the messages app on your computer it will not affect your Messages history on iCloud or other devices.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat active">Agree</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Disagree</a>
+    </div>
+  </div>
+    <script src="./node_modules/hammerjs/hammer.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+

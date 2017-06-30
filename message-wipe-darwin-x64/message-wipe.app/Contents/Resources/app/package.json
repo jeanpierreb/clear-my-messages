@@ -1,0 +1,35 @@
+{
+  "name": "message-wipe",
+  "version": "1.0.0",
+  "description": "An application to remove cached Messages from OSX",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "./node_modules/.bin/electron-packager ./ --platform=darwin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanpierreb/message-wipe.git"
+  },
+  "keywords": [
+    "Messages",
+    "iMessage",
+    "Electron",
+    "Bash"
+  ],
+  "author": "Jean-Pierre Barthelemy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jeanpierreb/message-wipe/issues"
+  },
+  "homepage": "https://github.com/jeanpierreb/message-wipe#readme",
+  "dependencies": {
+    "electron": "^1.6.11",
+    "materialize-css": "^0.99.0",
+    "shelljs": "^0.7.8"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.7.2"
+  }
+}
