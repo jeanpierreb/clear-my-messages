@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "./node_modules/.bin/electron .",
+    "build": "./node_modules/.bin/electron-packager ./ --platform=darwin"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,8 @@
     "electron": "^1.6.11",
     "materialize-css": "^0.99.0",
     "shelljs": "^0.7.8"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.7.2"
   }
 }
