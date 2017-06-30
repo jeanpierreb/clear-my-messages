@@ -2,9 +2,7 @@ const {app, BrowserWindow} = require('electron')
 const path = require('path')
 const url = require('url')
 const $ = require('jquery');
-//
-//const modalTrigger = document.getElementById('');
-//const closeButton = document.getElementById('close-button');
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let win
@@ -14,7 +12,7 @@ function createWindow () {
   win = new BrowserWindow({width: 800, height: 500, })
   win.$ = $;
 
-  // and load the index.html of the app.
+ // and load the index.html of the app.
   win.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',

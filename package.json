@@ -25,6 +25,7 @@
   "homepage": "https://github.com/jeanpierreb/message-wipe#readme",
   "dependencies": {
     "electron": "^1.6.11",
-    "materialize-css": "^0.99.0"
+    "materialize-css": "^0.99.0",
+    "shelljs": "^0.7.8"
   }
 }
