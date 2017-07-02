@@ -22,6 +22,6 @@ Restart OSX
 
 This is an [Electron][2] app, and uses [Materialize][3] for styling.
 
-[1]: https://raw.githubusercontent.com/jeanpierreb/message-cleaner/tree/master/message-wipe-darwin-x64/message-wipe.app
+[1]: https://github.com/jeanpierreb/clean-my-messages/raw/master/clear-my-messages.dmg
 [2]: https://electron.atom.io/
 [3]: http://materializecss.com/
