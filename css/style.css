@@ -4,12 +4,22 @@ body {
 	height: 100%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	-webkit-app-region: drag;
-	-ms-overflow-style: scrollbar;
+	text-align: center;
 }
 
 * {
 	-webkit-app-region: drag;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h1, h2, p, a, button {
+	-webkit-app-region: no-drag;
 }
 
 .messages-logo {
@@ -18,20 +28,9 @@ body {
 	margin: 0 auto;
 }
 
-/* 958 x 600 */
-
 .main {
-	/*2062*/
   width: 480px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  padding: 50px;
-  text-align: center;
-	-webkit-user-select: none;
+	margin: 0 auto;
 }
 
 .main a {
@@ -39,7 +38,6 @@ body {
 }
 
 h1 {
-	/*font-size: 48px*/
  color: rgba(0, 0, 0, .5);
  font-size: 36px;
  display: block;
@@ -47,30 +45,50 @@ h1 {
 }
 
 .button {
-	/* 23 */
-	background: 0;
-	border: 0;
 	padding: 8px 60px;
 	background-color: #34a7fc;
 	color: white;
 	border-radius: 25px;
-	display: block;
 	margin: 30px auto;
-	font-size: 14px;
 	font-weight: 400;
-}
-
-.cancel {
-	/*15*/
-	color: #34a7fc;
-	font-size: 10px;
-}
-
-.azule {
-	color: #34a7fc;
 }
 
 .modal {
 	backgruond-color: #ccc;
 	color: #000;
+  padding: 40px 0;
+}
+
+.modal-content p {
+	padding-bottom: 10px;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.modal-content, .modal-footer {
+	padding: 0 !important;
+	text-align: center !important;
+}
+
+.modal-footer {
+	display: flex;
+	justify-content: space-between;
+	width: 340px !important;
+	margin: auto;
+}
+
+.modal-action {
+	border-radius: 25px;
+	width: 45%;
+}
+
+.delete-button {
+	color: white;
+	background-color: #34a7fc;
+}
+
+.cancel-button {
+	border: 1px solid #34a7fc;
+	color: #34a7fc;
+	border-radius: 25px;
 }

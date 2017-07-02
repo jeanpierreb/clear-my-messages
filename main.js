@@ -1,4 +1,4 @@
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, dialog} = require('electron')
 const path = require('path')
 const url = require('url')
 const $ = require('jquery');
@@ -16,7 +16,7 @@ function createWindow () {
     backgroundColor: '#f6f6f6',
     titleBarStyle: 'hidden-inset',
     resizable: false,
-  //  icon: path.join(__dirname, 'assets/icons/png/64x64.png')
+  //  icon: path.join(__dirname, 'img/app-icon-64x64.png')
   });
 
   win.$ = $;
