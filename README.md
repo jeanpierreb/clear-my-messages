@@ -1,5 +1,7 @@
 # Messages Cleaner
 
+![Screenshot](/img/screenshot.png "Screenshot")
+
 ## Command line version
 
 If you are comfortable using the command line you can simply copy and paste the commands listed below and it will achieve the same results. In fact, if you downnload the app, that is all that it's doing, except in a prettier way.
@@ -25,3 +27,4 @@ This is an [Electron][2] app, and uses [Materialize][3] for styling.
 [1]: https://github.com/jeanpierreb/clean-my-messages/raw/master/clear-my-messages.dmg
 [2]: https://electron.atom.io/
 [3]: http://materializecss.com/
+
