@@ -8,7 +8,7 @@ If you are comfortable using the command line you can simply copy and paste the 
 
 Or
 
-### Copy and paste the following into terminal 
+### Copy and paste the following into terminal
 
 Delete the files inside of Messages
 
@@ -22,7 +22,6 @@ Restart OSX
 
 This is an [Electron][2] app, and uses [Materialize][3] for styling.
 
-<<<<<<< HEAD
 [1]: https://raw.githubusercontent.com/jeanpierreb/message-cleaner/tree/master/message-wipe-darwin-x64/message-wipe.app
 [2]: https://electron.atom.io/
 [3]: http://materializecss.com/
