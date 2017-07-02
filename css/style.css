@@ -1,8 +1,15 @@
 body {
+	color: #000;
+	width: 100%;
+	height: 100%;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	background-color: #f6f6f6;
-	color: #000;
+	-webkit-app-region: drag;
+	-ms-overflow-style: scrollbar;
+}
+
+* {
+	-webkit-app-region: drag;
 }
 
 .messages-logo {
@@ -24,6 +31,7 @@ body {
   margin: auto;
   padding: 50px;
   text-align: center;
+	-webkit-user-select: none;
 }
 
 .main a {
@@ -56,6 +64,10 @@ h1 {
 	/*15*/
 	color: #34a7fc;
 	font-size: 10px;
+}
+
+.azule {
+	color: #34a7fc;
 }
 
 .modal {
