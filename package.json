@@ -1,5 +1,5 @@
 {
-  "name": "message-wipe",
+  "name": "clear-my-messages",
   "version": "1.0.0",
   "description": "An application to remove cached Messages from OSX",
   "main": "main.js",
