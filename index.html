@@ -4,30 +4,28 @@
     <meta charset="UTF-8">
     <title>Messages Wipe</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		<link href="css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+		<link href="css/materialize.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 	</head>
   <body>
 		<div class="main">
-			<h2>Wipe Messages</h2>
-  		<p>This will <strong>PERMANENTLY</strong> delete your Messages history on this Mac.</p>
-  		<a class="waves-effect waves-light btn" href="#modal">Clear Message History</a>
-		</div>
-		<footer>
-			<a href="#" id="close-window">Exit this App</a>
-		</footer>
-
-		  <!-- Modal Trigger -->
+  		<img src="img/messages-icon.png" class="messages-logo" />
+			<h1>CLEAR MY MESSAGES</h1>
+			<p>Are you sure you want to delete all Messages synced to this<br>computer? This action can't be un done</p>
+  		<a class="button" href="#modal">YES, DELETE ALL MESSAGES</a>
+			<a href="#" id="close-window">CANCEL</a>
+    </div>
 
   <!-- Modal Structure -->
   <div id="modal" class="modal">
     <div class="modal-content">
-    <h4>Confirm Deletion</h4>
-      <p>Please keep in mind that this cannot be reversed. Also while it will delete the contents of the messages app on your computer it will not affect your Messages history on iCloud or other devices.</p>
+    <h5>Are you sure?</h5>
+    <p>This is a permanent process and cannot be undone</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat active">Agree</a>
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Disagree</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat active">Yes</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">No</a>
     </div>
   </div>
     <script src="./node_modules/hammerjs/hammer.min.js"></script>
@@ -36,4 +34,3 @@
     <script src="js/app.js"></script>
   </body>
 </html>
-

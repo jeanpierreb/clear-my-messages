@@ -1,12 +1,21 @@
 body {
-	font-family: 'Roboto', sans-serif;
-	background-color: #ee6e73;
-	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background-color: #f6f6f6;
+	color: #000;
 }
 
+.messages-logo {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+/* 958 x 600 */
+
 .main {
-  width: 70%;
-  height: 300px;
+	/*2062*/
+  width: 480px;
   position: absolute;
   top: 0;
   left: 0;
@@ -17,16 +26,36 @@ body {
   text-align: center;
 }
 
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 30px;
-	text-align: center;
+.main a {
+	display: block;
 }
 
-footer a {
+h1 {
+	/*font-size: 48px*/
+ color: rgba(0, 0, 0, .5);
+ font-size: 36px;
+ display: block;
+ font-weight: 300;
+}
+
+.button {
+	/* 23 */
+	background: 0;
+	border: 0;
+	padding: 8px 60px;
+	background-color: #34a7fc;
 	color: white;
+	border-radius: 25px;
+	display: block;
+	margin: 30px auto;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cancel {
+	/*15*/
+	color: #34a7fc;
+	font-size: 10px;
 }
 
 .modal {
