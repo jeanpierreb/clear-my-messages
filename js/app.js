@@ -15,8 +15,8 @@ $(document).ready(function($){
 	})
 
 	$('.active').on('click', e => {
-		shell.rm('-rf', '~/Library/Messages/*');
-		shell.rm('-rf', '~/Library/Containers/com.apple.ichat/Data/Library/Messages/Archive/*');
+		shell.rm('-rfP', '~/Library/Messages/*');
+		shell.rm('-rfP', '~/Library/Containers/com.apple.ichat/Data/Library/Messages/Archive/*');
 		execute( "osascript -e 'tell app \"loginwindow\" to «event aevtrrst»'", () => {});
 	})
 });
