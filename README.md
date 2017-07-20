@@ -16,6 +16,8 @@ rm -Rf ~/Library/Containers/com.apple.ichat/Data/Library/Messages/Archive/*
 osascript -e 'tell app "loginwindow" to «event aevtrrst»'
 ```
 
+**Disclaimer:** This project is not affiliated with or supported by Apple, Inc. All logos and trademarks are the property of their respective owners.
+
 [1]: https://github.com/jeanpierreb/clean-my-messages/raw/master/clear-my-messages.dmg
 [2]: https://electron.atom.io/
 [3]: http://materializecss.com/
